@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <name>ELFileManager</name>
+    <version>102</version>
+    <defaultcat>File Management</defaultcat>
+    <desc>Web filemanager</desc>
+    <type>user</type>
+    <authorname>Diablo925</authorname>
+    <authoremail>carsten@alio.dk</authoremail>
+    <authorurl>http://Alio.dk/</authorurl>
+    <updateurl></updateurl>
+</module>
