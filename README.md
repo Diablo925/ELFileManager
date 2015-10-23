@@ -9,9 +9,8 @@ for comments, discussion, more information and community support.
 Web File manager to sentora 
 
 ##Author
-Module is edit by Diablo925 [@github](https://github.com/Diablo925)
-And help from TGates [@github]
-(https://github.com/TGates71) 
+Module is edit by Diablo925 [@github](https://github.com/Diablo925) 
+And help from TGates [@github](https://github.com/TGates71) 
 
 ##Version updates
 1.0.0 testet
