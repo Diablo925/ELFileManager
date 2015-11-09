@@ -9,12 +9,17 @@ for comments, discussion, more information and community support.
 Web File manager to sentora 
 
 ##Author
-Module is edit by Diablo925 [@github](https://github.com/Diablo925)
-And help from TGates [@github]
-(https://github.com/TGates71) 
+Module is edit by Diablo925 [@github](https://github.com/Diablo925) <br />
+And help from TGates [@github](https://github.com/TGates71) 
 
 ##Version updates
+<<<<<<< HEAD
 1.0.0 testet
 1.0.1 never release
 1.0.2 release to github
 1.0.3 fix unpack zip files where .htaccess file are in 
+=======
+1.0.0 testet<br />
+1.0.1 never release<br />
+1.0.2 release to github<br />
+>>>>>>> origin/master
