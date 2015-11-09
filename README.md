@@ -1,6 +1,6 @@
 # ELFileManager
 
-Version: 1.0.2<br />
+Version: 1.0.3<br />
 [Forums](http://forums.sentora.org/showthread.php?tid=2076) 
 for comments, discussion, more information and community support.
 
@@ -17,3 +17,4 @@ And help from TGates [@github]
 1.0.0 testet
 1.0.1 never release
 1.0.2 release to github
+1.0.3 fix unpack zip files where .htaccess file are in 
