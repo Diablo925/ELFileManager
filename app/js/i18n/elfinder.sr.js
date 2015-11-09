@@ -75,7 +75,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'errArcMaxSize'        : 'Arhiva je dostigla maksimalnu veličinu.',
 			'errResize'            : 'Nemoguće promeniti veličinu "$1".',
 			'errResizeDegree'      : 'Invalid rotate degree.',
-			'errResizeRotate'      : 'Unable to rotate image.',
+			'errResizeRotate'      : 'Image dose not rotated.',
 			'errResizeSize'        : 'Invalid image size.',
 			'errResizeNoChange'    : 'Image size not changed.',
 			'errUsupportType'      : 'nepodržan tip datoteke.',

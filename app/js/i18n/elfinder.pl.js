@@ -76,7 +76,7 @@ if (elFinder && elFinder.prototype && typeof(elFinder.prototype.i18) == 'object'
 			'errArcMaxSize'        : 'Archiwum przekracza maksymalny dopuszczalny rozmiar.',
 			'errResize'            : 'Nie można zmienić rozmiaru "$1".',
 			'errResizeDegree'      : 'Invalid rotate degree.',
-			'errResizeRotate'      : 'Unable to rotate image.',
+			'errResizeRotate'      : 'Image dose not rotated.',
 			'errResizeSize'        : 'Invalid image size.',
 			'errResizeNoChange'    : 'Image size not changed.',
 			'errUsupportType'      : 'Nieobsługiwany typ pliku.',
