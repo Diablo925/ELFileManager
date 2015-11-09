@@ -14,7 +14,7 @@ And help from TGates [@github](https://github.com/TGates71)
 
 ##Version updates
 
-1.0.0 testet
-1.0.1 never release
-1.0.2 release to github
-1.0.3 fix unpack zip files where .htaccess file are in 
+1.0.0 testet<br />
+1.0.1 never release<br />
+1.0.2 release to github<br />
+1.0.3 fix unpack zip files where .htaccess file are in<br />
