@@ -18,7 +18,12 @@ session_start();
 if ($_SESSION['zpuid'] == $userid) {
 	$currentuser = ctrl_users::GetUserDetail($userid);
 	$path = ctrl_options::GetSystemOption('hosted_dir');
-	?>
+if(file_exists($path . $currentuser["username"] . "/elfilemanager_config.xml")) { 
+		$xml=simplexml_load_file($path . $currentuser["username"] ."/elfilemanager_config.xml");
+		$theme = $xml->theme;
+		$lang = $xml->lang;
+		}
+		?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -32,10 +37,18 @@ if ($_SESSION['zpuid'] == $userid) {
 
 		<!-- elFinder CSS (REQUIRED) -->
 		<link rel="stylesheet" type="text/css" href="css/elfinder.min.css">
-		<link rel="stylesheet" type="text/css" href="css/theme.css">
-
+        <?php if(file_exists($path . $currentuser["username"] . "/elfilemanager_config.xml")) { ?>
+		<link rel="stylesheet" type="text/css" href="themes/<?php echo $theme; ?>/css/theme.css">
+        <?php } ?>
+        
 		<!-- elFinder JS (REQUIRED) -->
 		<script src="js/elfinder.min.js"></script>
+
+		<!-- elFinder translation (OPTIONAL) -->
+		<?php if(file_exists($path . $currentuser["username"] . "/elfilemanager_config.xml")) { ?>
+		<script src="js/i18n/elfinder.<?php echo $lang; ?>.js"></script>
+		<?php } ?>
+		
 
 		<!-- elFinder initialization (REQUIRED) -->
 		<script type="text/javascript" charset="utf-8">
@@ -44,13 +57,15 @@ if ($_SESSION['zpuid'] == $userid) {
 			$(document).ready(function() {
 				$('#elfinder').elfinder({
 					url : 'php/connector.minimal.php',
+					<?php if(file_exists($path . $currentuser["username"] . "/elfilemanager_config.xml")) { ?>
+					lang : '<?php echo $lang; ?>',
+					<?php } ?>
 					customData : { path : "<?php echo $path.'/'.$currentuser["username"].'/'; ?>" }
 				});
 			});
 		</script>
 	</head>
 	<body>
-
 		<!-- Element where elFinder will be created (REQUIRED) -->
 		<div id="elfinder"></div>
 

@@ -22,9 +22,6 @@ removeModule();
 
 function removeModule(){
 			global $zdbh;
-			
-			$numrows = $zdbh->prepare("DROP TABLE sentora_core.x_themestore");
-    		$numrows->execute();
 
  }
 ?>

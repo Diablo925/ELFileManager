@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Upgrade for Certificate Manager Module for sentora 1.0.0
+ * Upgrade for ELFileManager Module for sentora 1.0.3
  * Version : 100
  */
  
@@ -23,5 +23,5 @@ function UpgradeModule($newversion, $module){
     $sql->execute();    
 }
 
-	UpgradeModule('100', 'Theme_installer');
+	UpgradeModule('105', 'ElFileManager');
 ?>

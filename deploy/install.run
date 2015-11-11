@@ -21,17 +21,6 @@ require_once('inc/dbc.inc.php');
 function installModule(){
 global $zdbh;
 
-		$numrows = $zdbh->prepare("CREATE TABLE IF NOT EXISTS sentora_core.x_themestore (
-                                      `ts_url_tx` varchar(255) NULL,
-									  `ts_host_tx` varchar(255) NULL,
-									  `ts_username_tx` varchar(255) NULL,
-									  `ts_password_tx` varchar(255) NULL,
-                                      PRIMARY KEY (`ts_host_tx`)
-                                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
-     		$numrows->execute();
-			$sql = $zdbh->prepare("INSERT INTO sentora_core.x_themestore SET ts_url_tx = 'http://theme.alio.dk/theme',ts_host_tx = 'alio.dk',ts_username_tx = 'zadmin_repo_theme',ts_password_tx = 'eskfxa1Cl' ");
-			$sql->execute();
-
 }
 
 //install
