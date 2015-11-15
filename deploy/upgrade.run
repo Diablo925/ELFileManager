@@ -23,5 +23,5 @@ function UpgradeModule($newversion, $module){
     $sql->execute();    
 }
 
-	UpgradeModule('105', 'ElFileManager');
+	UpgradeModule('106', 'ElFileManager');
 ?>

@@ -23,9 +23,9 @@ $opts = array(
 			'path'          => $_REQUEST["path"],
 			//'URL'           => dirname($_SERVER['PHP_SELF']) . $_REQUEST["path"],
 			'utf8fix'    	=> true,
-               		'accessControl' => 'access',
+               		//'accessControl' => 'access',
             		'quarantine' => '.tmb/.quarantine',
-            		'acceptedName' => '/^.[^\.].*/'
+            		'acceptedName' => '/^/.[^\.].*/'
 		)
 	)
 );

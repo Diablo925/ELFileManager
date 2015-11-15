@@ -1,6 +1,6 @@
 # ELFileManager
 
-Version: 1.0.5<br />
+Version: 1.0.6<br />
 [Forums](http://forums.sentora.org/showthread.php?tid=2076) 
 for comments, discussion, more information and community support.
 
@@ -19,4 +19,6 @@ And help from TGates [@github](https://github.com/TGates71)
 1.0.2 release to github<br />
 1.0.3 Small fix<br />
 1.0.4 tests never release<br />
-1.0.5 Added option to change the theme and language
+1.0.5 Added option to change the theme and language<br />
+1.0.6 Small Fix
+
