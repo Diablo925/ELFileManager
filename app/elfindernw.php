@@ -60,7 +60,7 @@ if ($_SESSION['zpuid'] == $userid) {
 					lang : '<?php echo $lang; ?>',
 					<?php } ?>
 					customData : { path : "<?php echo $path.'/'.$currentuser["username"].'/'; ?>" },
-					height : 550
+					height : (window.innerHeight - 20)
 				});
 			});
 		</script>
